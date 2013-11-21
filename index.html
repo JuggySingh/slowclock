@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<!--
+  Created using jsbin.com
+  Source can be edited via http://jsbin.com/oxenOqA/3/edit
+-->
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+
+<style id="jsbin-css">
+
+</style>
+</head>
+<body>
+  
+  <form>
+    <input type="button" value="expand" onclick="expansion()">
+    <p>
+      hue:
+    <input type="text" id="hueTxt">
+    </p>
+  </form>
+  
+ <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="450px"
+	 height="450px" viewBox="0 0 800 800" enable-background="new 0 0 450 450" xml:space="preserve">
+<g id="Clock-Body">
+	<circle fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="223.555" cy="224.86" r="209.5"/>
+	<text transform="matrix(1 0 0 1 200.0552 65.3598)" font-family="'MyriadPro-Regular'" font-size="45">12</text>
+	<text transform="matrix(1 0 0 1 302.0552 91.3598)" font-family="'MyriadPro-Regular'" font-size="45">1</text>
+	<text transform="matrix(1 0 0 1 369.0552 155.3598)" font-family="'MyriadPro-Regular'" font-size="45">2</text>
+	<text transform="matrix(0.9999 0.0162 -0.0162 0.9999 392.8828 240.1497)" font-family="'MyriadPro-Regular'" font-size="45">3</text>
+	<text transform="matrix(1 0 0 1 364.0552 324.3599)" font-family="'MyriadPro-Regular'" font-size="45">4</text>
+	<text transform="matrix(1 0 0 1 300.0552 390.3599)" font-family="'MyriadPro-Regular'" font-size="45">5</text>
+	<text transform="matrix(1 0 0 1 213.0552 410.3599)" font-family="'MyriadPro-Regular'" font-size="45">6</text>
+	<text transform="matrix(1 0 0 1 130.0552 391.3599)" font-family="'MyriadPro-Regular'" font-size="45">7</text>
+	<text transform="matrix(1 0 0 1 61.0552 324.3599)" font-family="'MyriadPro-Regular'" font-size="45">8</text>
+	<text transform="matrix(1 0 0 1 35.0552 239.3598)" font-family="'MyriadPro-Regular'" font-size="45">9</text>
+	<text transform="matrix(1 0 0 1 57.0552 157.3598)" font-family="'MyriadPro-Regular'" font-size="45">10</text>
+	<text transform="matrix(1 0 0 1 124.0552 91.3598)" font-family="'MyriadPro-Regular'" font-size="45">11</text>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="224.555" y1="15.36" x2="224.055" y2="32.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="330.055" y1="46.36" x2="321.055" y2="60.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="404.055" y1="119.36" x2="391.055" y2="128.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="432.055" y1="224.36" x2="417.055" y2="224.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="404.055" y1="326.36" x2="391.055" y2="319.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="330.055" y1="404.36" x2="322.055" y2="391.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="224.055" y1="416.36" x2="224.055" y2="435.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="128.055" y1="393.36" x2="120.055" y2="407.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="58.555" y1="320.86" x2="43.555" y2="330.86"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="31.555" y1="225.36" x2="16.555" y2="225.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="56.555" y1="128.86" x2="43.555" y2="121.86"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="128.555" y1="56.86" x2="120.555" y2="43.86"/>
+	<circle stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="225.055" cy="225.36" r="10"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="308.055" y1="34.86" x2="306.555" y2="39.86"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="291.055" y1="27.86" x2="289.555" y2="32.86"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="250.555" y1="16.86" x2="250.055" y2="23.86"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="272.055" y1="20.86" x2="270.555" y2="26.86"/>
+	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M224.055,427.36c-111.562,0-202-90.437-202-202
+		c0-111.562,90.438-202,202-202"/>
+	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M426.055,225.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="394.555" y1="103.36" x2="388.055" y2="108.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="381.555" y1="87.36" x2="377.055" y2="91.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="352.055" y1="59.36" x2="347.555" y2="64.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="367.555" y1="72.36" x2="363.055" y2="77.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="432.555" y1="204.36" x2="426.055" y2="204.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="429.555" y1="183.36" x2="423.055" y2="184.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="415.055" y1="137.36" x2="409.555" y2="141.36"/>
+	<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="422.555" y1="160.36" x2="417.055" y2="162.36"/>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="414.731" y1="312.162" x2="409.302" y2="309.586"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="423.778" y1="293.974" x2="416.799" y2="291.234"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="433.973" y1="246.583" x2="425.179" y2="245.898"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="429.583" y1="268.916" x2="422.89" y2="267.561"/>
+	</g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="349.503" y1="394.171" x2="344.107" y2="388.63"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="365.84" y1="380.639" x2="360.59" y2="375.621"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="397.481" y1="344.237" x2="391.196" y2="340.638"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="381.792" y1="362.652" x2="377.211" y2="359.007"/>
+	</g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="248.74" y1="434.356" x2="248.149" y2="426.884"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="269.379" y1="431.461" x2="267.793" y2="424.079"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="313.871" y1="414.84" x2="310.388" y2="409.727"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="291.648" y1="424.4" x2="289.157" y2="418.105"/>
+	</g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="136.055" y1="415.86" x2="138.555" y2="409.86"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="153.055" y1="422.86" x2="155.555" y2="416.86"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="193.555" y1="433.86" x2="195.055" y2="426.86"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="172.055" y1="429.86" x2="174.555" y2="422.86"/>
+	</g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="56.055" y1="349.36" x2="60.555" y2="346.36"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="69.055" y1="365.36" x2="73.555" y2="361.36"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="98.555" y1="393.36" x2="103.055" y2="388.36"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="83.055" y1="380.36" x2="87.555" y2="375.36"/>
+	</g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="14.555" y1="244.86" x2="21.055" y2="244.86"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="17.555" y1="265.86" x2="24.055" y2="264.86"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="32.055" y1="311.86" x2="37.555" y2="307.86"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="24.555" y1="288.86" x2="30.055" y2="286.86"/>
+	</g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="33.545" y1="139.898" x2="38.973" y2="142.473"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="24.498" y1="158.085" x2="31.476" y2="160.826"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="14.302" y1="205.476" x2="21.096" y2="206.162"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="18.692" y1="183.143" x2="25.385" y2="184.499"/>
+	</g>
+	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M223.055,427.36c111.561,0,202-90.437,202-202
+		c0-111.562-90.439-202-202-202"/>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="101.085" y1="54.638" x2="106.481" y2="60.179"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="84.748" y1="68.17" x2="89.998" y2="73.189"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="53.107" y1="104.573" x2="59.392" y2="108.171"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="68.796" y1="86.158" x2="73.377" y2="89.802"/>
+	</g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="205.28" y1="15.727" x2="205.871" y2="23.199"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="184.64" y1="18.622" x2="186.226" y2="26.004"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="140.149" y1="35.243" x2="143.631" y2="40.356"/>
+		<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="162.372" y1="25.683" x2="164.863" y2="31.978"/>
+	</g>
+</g>
+<g id="Clock-Hands">
+	<line id="hourhand" fill="none" stroke="#000000" stroke-width="9" stroke-miterlimit="10" x1="224.555" y1="226.36" x2="244.555" y2="125.86"/>
+	<line id="minutehand" fill="none" stroke="#000000" stroke-width="9" stroke-miterlimit="10" x1="225.555" y1="50.86" x2="224.555" y2="226.36"/>
+</g>
+</svg>
+  
+  
+<script src="js.js" type="text/javascript">
+</script>
+
+</body>
+</html>
